@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture Gallery - Educational Institution</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <div class="logo-circle">E</div>
+                <span class="logo-text">4U</span>
+            </div>
+            <nav class="navbar" id="navbar">
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="programme.html" class="nav-link">Programme</a></li>
+                    <li><a href="picture-gallery.html" class="nav-link active">Picture-Gallery</a></li>
+                    <li><a href="campus.html" class="nav-link">Campus</a></li>
+                    <li><a href="aboutus.html" class="nav-link">AboutUs</a></li>
+                    <li><a href="contactus.html" class="nav-link">ContactUs</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section class="page-header">
+            <div class="container">
+                <h1>Picture Gallery</h1>
+                <p>Explore moments from our campus life, events, and achievements</p>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <div class="container">
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="events">Events</button>
+                    <button class="filter-btn" data-filter="campus">Campus</button>
+                    <button class="filter-btn" data-filter="students">Students</button>
+                    <button class="filter-btn" data-filter="achievements">Achievements</button>
+                </div>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item" data-category="campus">
+                        <div class="gallery-image">
+                            <div class="image-placeholder">🏛️</div>
+                            <div class="gallery-overlay">
+                                <h3>Main Building</h3>
+                                <p>Our iconic main campus building</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="events">
+                        <div class="gallery-image">
+                            <div class="image-placeholder">🎓</div>
+                            <div class="gallery-overlay">
+                                <h3>Graduation Ceremony</h3>
+                                <p>Annual graduation celebration</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="students">
+                        <div class="gallery-image">
+                            <div class="image-placeholder">👥</div>
+                            <div class="gallery-overlay">
+                                <h3>Student Life</h3>
+                                <p>Students in the library</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="achievements">
+                        <div class="gallery-image">
+                            <div class="image-placeholder">🏆</div>
+                            <div class="gallery-overlay">
+                                <h3>Awards Ceremony</h3>
+                                <p>Recognizing excellence</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="campus">
+                        <div class="gallery-image">
+                            <div class="image-placeholder">🌳</div>
+                            <div class="gallery-overlay">
+                                <h3>Campus Grounds</h3>
+                                <p>Beautiful campus landscape</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="events">
+                        <div class="gallery-image">
+                            <div class="image-placeholder">🎤</div>
+                            <div class="gallery-overlay">
+                                <h3>Cultural Festival</h3>
+                                <p>Annual cultural celebration</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="students">
+                        <div class="gallery-image">
+                            <div class="image-placeholder">🔬</div>
+                            <div class="gallery-overlay">
+                                <h3>Lab Session</h3>
+                                <p>Students in science lab</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="achievements">
+                        <div class="gallery-image">
+                            <div class="image-placeholder">📚</div>
+                            <div class="gallery-overlay">
+                                <h3>Research Presentation</h3>
+                                <p>Student research showcase</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="campus">
+                        <div class="gallery-image">
+                            <div class="image-placeholder">🏃</div>
+                            <div class="gallery-overlay">
+                                <h3>Sports Complex</h3>
+                                <p>State-of-the-art facilities</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="events">
+                        <div class="gallery-image">
+                            <div class="image-placeholder">🎭</div>
+                            <div class="gallery-overlay">
+                                <h3>Theater Performance</h3>
+                                <p>Student drama production</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="students">
+                        <div class="gallery-image">
+                            <div class="image-placeholder">💻</div>
+                            <div class="gallery-overlay">
+                                <h3>Computer Lab</h3>
+                                <p>Modern technology facilities</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="achievements">
+                        <div class="gallery-image">
+                            <div class="image-placeholder">🎖️</div>
+                            <div class="gallery-overlay">
+                                <h3>Student Honors</h3>
+                                <p>Academic excellence recognition</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="programme.html">Programme</a></li>
+                        <li><a href="picture-gallery.html">Picture-Gallery</a></li>
+                        <li><a href="campus.html">Campus</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Information</h3>
+                    <ul>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                        <li><a href="#">Admissions</a></li>
+                        <li><a href="#">Events</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>📧 info@institution.edu</p>
+                    <p>📞 +1 (555) 123-4567</p>
+                    <p>📍 123 Education Street, City, State 12345</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Educational Institution. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
